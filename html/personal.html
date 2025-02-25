@@ -1,0 +1,153 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute and nth child psudo selectors</title> 
+    <style>
+        input{
+            display: block;
+            
+        }
+        body{
+            background: url('https://images.unsplash.com/photo-1717163219907-554b517b9722?') no-repeat center center/cover;
+        }
+        .container h1 a{ 
+            margin: 2px;
+            width: 1200px ;
+            display: block;
+            text-align: center;
+            background: url('https://images.unsplash.com/photo-1717163219907-554b517b9722?') no-repeat center center/cover;
+        }
+        input[type='text' ]{
+            padding: 5px;
+            border: 2px solid cadetblue;
+            text-align: center;
+            background-color: rgb(239, 183, 92);
+            
+        }
+        input[type='password' ]{
+            padding: 5px;
+            border: 2px solid cadetblue;
+            text-align: center;
+            background-color: rgb(239, 183, 92);
+        } 
+        a[target]{
+            color: rgb(3, 37, 226);
+            font-size: 23px;
+            
+        }
+        a[target='_self']{
+            color: rgb(120, 0, 218);
+            font-size: 23px;
+            font-style: italic;
+        }
+        li:nth-child(5){
+            color: rgb(115, 6, 115);
+        }
+        li:nth-child(2n+0){
+            color: rgb(59, 216, 101);
+        }
+        li:nth-child(even){
+            background-color: transparent;
+        }
+        li:nth-child(odd){
+            background-color: transparent;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="http://Google.com " target="_blank">GO TO GOOGLE</a></h1>
+        <h1><a href="http://Instagram.com " target="_blank">GO TO INSTAGRAM</a></h1>
+        <form class="form-control">
+            <input type="text" placeholder="enter you name"><br>
+            <input type="password" placeholder="enter you password"><br>
+            <input type="submit" value="Submit"><br>
+        </form>
+        <ul>
+            <li class="item" id="item-1">item1</li>
+            <li class="item" id="item-2">item2</li>
+            <li class="item" id="item-3">item3</li>
+            <li class="item" id="item-4">item4</li>
+            <li class="item" id="item-5">item5</li>
+            <li class="item" id="item-6">item6</li>
+            <li class="item" id="item-4">item4</li>
+            <li class="item" id="item-4">item4</li>
+            <li class="item" id="item-4">item4</li>
+            <li class="item" id="item-4">item4</li>
+            <li class="item" id="item-4">item4</li>
+
+        </ul>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After pseudo selectors</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: rgba(194, 91, 91, 0.698);
+            color: rgb(241, 230, 230);
+            background: url('https://images.unsplash.com/photo-1717163219907-554b517b9722?') no-repeat center center/cover;
+        }
+        .navigation{
+            font-size: 17px;
+            display: flex;
+        }
+        li{
+            list-style: none;
+            padding: 12px 41px; 
+            color: floralwhite;
+
+            
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            height: 145px;
+            align-items: center;
+            justify-content: center;
+            margin: 81px 71px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1{
+            font-size: 3rem;
+            color: rgb(205, 179, 179);
+            margin: 2rem;
+
+        }
+        p{
+            text-align: center;
+            font-size: 21px;
+            font-family: cursive;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About us</li>
+                <li class="item">Serveces</li>
+                <li class="item">Contact us</li>
+            </ul>
+        </nav>
+    </header>
+        <section>
+            <h1>Welcome to Coding world</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At expedita ratione iure accusantium dolor, consectetur iusto vel beatae similique eum deleniti repellat ea delectus aperiam, sunt vitae recusandae odio impedit aspernatur fugiat non libero! Assumenda esse ab vel tenetur voluptate veniam dolorem velit mollitia, doloribus eligendi, odio id. Sapiente, labore nemo ipsum debitis minima rem error.</p>
+        </section>
+        <hr>
+</body>
+</html>
