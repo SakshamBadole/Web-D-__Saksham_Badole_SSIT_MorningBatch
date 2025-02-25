@@ -1,0 +1,21 @@
+h1, a{
+    text-align: center;
+    color: chartreuse;
+}
+p{
+    color: rgb(252, 88, 0);
+    font-size: 19px;
+    background-color: lightgray;
+    border-left: 12px solid red;
+}
+table,th,td{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+th,td{
+    background-color: lightpink;
+}
+body{
+    background: url(https://images.unsplash.com/photo-1739382120576-b1434e8bc4d3?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
