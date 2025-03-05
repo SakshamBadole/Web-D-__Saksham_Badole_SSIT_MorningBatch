@@ -1,0 +1,105 @@
+body{
+    line-height: 1.6;
+}
+.top-bar{
+    background-color: #3333331a;
+    color: #333333b4;
+    margin: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+.top-bar i{
+    margin-left: 2px;
+    margin-top: 11px;
+    padding-left: 41px;
+}
+.register-btn{
+    background: rgba(61, 192, 29, 0.756);
+    color: white;
+    /* border: solid gray 2px; */
+    padding: 5px 10px;
+    margin-left: 100px;
+    cursor: pointer; 
+    margin-top: 23px;
+    border-radius: 5px;
+}
+.register-btn a{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+.navigation{
+    background: rgba(65, 59, 59, 0.609);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-image: url(sakshambadole.jpg);
+    padding: 80px;
+    
+}
+.header-links{
+    display: flex;
+    color: rgba(245, 234, 234, 0.703);
+    background-color: rgb(39, 40, 41);
+    padding: 11px 13px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header-links li a{
+    color: rgb(158, 155, 151);
+    text-decoration: none;
+}
+.contact{
+    margin-left: 90px;
+}
+.parent1{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding-left: 19px;
+}
+.logo{
+    display: flex;
+    padding-left: 10%;
+}
+.call{
+    margin-left: 350px;
+}
+.email{
+    margin-left: 70px;
+}
+.legal h2{
+    text-align: center;
+    padding: 20px;
+}
+.document img{
+    height: 80%;
+    width: 80%;
+    margin-left: 15%;
+}
+footer{
+    background-color: rgb(39, 40, 41);
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-about,.footer-contect,.footer-links{
+    width: 30%;
+}
+.footer-links ul{
+    list-style: none;
+}
+.footer-links ul li{
+    margin: 5px;
+}
+.footer-links ul li a{
+    color: white;
+    text-decoration: none;
+}
