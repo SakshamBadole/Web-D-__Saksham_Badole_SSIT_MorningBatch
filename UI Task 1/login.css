@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    background-color: rgb(39, 40, 41);
+    justify-content: space-around;
+}
+h2{
+    color: white;
+    font-size: 35px;
+}
+h4{
+    color: white;
+}
+
+.login{
+    border: solid rgb(225, 220, 220) 1px;
+    margin-top:50px;
+    margin-left: 35%;
+    margin-right: 35%;
+    
+}
+::placeholder{
+    color: rgba(103, 105, 107, 0.608);
+}
+.login-button{
+    background-color: rgb(82, 83, 85);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.login-button a{
+    color: rgb(212, 207, 207);
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.forgot{
+    padding-bottom: 10%;
+}
+.forgot a{
+    color: white;
+}
+.account{
+    border: solid white 1px;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: flex;
+}
+.dont-have p{
+    color: white;
+    margin-left: 80px;
+}
+.sign-up a{
+    color: rgb(133, 124, 124);
+    display: flex;
+    margin-top: 15px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+/* .bottom{
+    display: flex;
+    background-color: aqua;
+}
+.bottom2 a{
+    
+} */
